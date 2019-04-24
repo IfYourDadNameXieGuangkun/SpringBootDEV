@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="exam-manager-api" />
+        <module name="exam-manager-dao" />
+        <module name="exam-manager-model" />
+        <module name="exam-manager-mqconsumer" />
+        <module name="exam-manager-rpc" />
+        <module name="exam-manager-service" />
+        <module name="exam-manager-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="exam-manager" target="1.8" />
+      <module name="exam-manager-api" target="1.8" />
+      <module name="exam-manager-dao" target="1.8" />
+      <module name="exam-manager-model" target="1.8" />
+      <module name="exam-manager-mqconsumer" target="1.8" />
+      <module name="exam-manager-rpc" target="1.8" />
+      <module name="exam-manager-service" target="1.8" />
+      <module name="exam-manager-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
